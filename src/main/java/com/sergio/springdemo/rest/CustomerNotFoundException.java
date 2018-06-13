@@ -2,6 +2,11 @@ package com.sergio.springdemo.rest;
 
 public class CustomerNotFoundException extends RuntimeException {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -4341897810270992693L;
+
 	public CustomerNotFoundException() {
 		super();
 	}
